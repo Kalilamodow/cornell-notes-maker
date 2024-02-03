@@ -1,0 +1,53 @@
+// in style.sccs, when @media (prefers-color-scheme: dark) this gets imported
+
+:root {
+  background-color: #181818;
+  
+  --text-color: #ddd;
+  color: var(--text-color);
+}
+
+button {
+  background: #333;
+  color: white;
+}
+
+input[type="text"] {
+  color: var(--text-color);
+  &#titleInput {
+    border-bottom-color: gray;
+  }
+
+  &.adderInput {
+    border-color: white;
+
+    + button {
+      border-color: white;
+    }
+  }
+}
+
+section:nth-child(2),
+section:nth-child(3) {
+  ul li button {
+    background-color: black;
+  }
+}
+
+textarea {
+  color: var(--text-color);
+}
+
+nav#save {
+  background: #222;
+  border-top-color: white;
+
+  button {
+    background: #333;
+    border: 1px solid white;
+
+    &:hover {
+      background: #555;
+    }
+  }
+}

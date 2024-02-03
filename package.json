@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "serve": "webpack serve --open --mode development",
+    "build": "webpack b --mode production"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass-loader": "^14.1.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "css-loader": "^6.10.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "html-webpack-plugin": "^5.6.0",
+    "node-sass": "^9.0.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1"
+  }
+}

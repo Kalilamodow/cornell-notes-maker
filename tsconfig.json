@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "dom",
+      "ES2023"
+    ],
+    "jsx": "react",
+    "module": "ES2015",
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
