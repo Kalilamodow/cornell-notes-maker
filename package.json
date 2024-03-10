@@ -1,7 +1,7 @@
 {
   "scripts": {
     "serve": "webpack serve --open --mode development",
-    "build": "webpack b --mode production"
+    "build": "webpack build --mode production"
   },
   "dependencies": {
     "@types/react": "^18.2.48",
